@@ -4,9 +4,6 @@
     padding: 0;
 }
 
-/* font-family: 'Lobster', cursive; */
-/* font-family: 'Abel', sans-serif; */
-
 body {
     display: flex;
     flex-direction: column;

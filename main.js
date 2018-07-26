@@ -1,6 +1,7 @@
 'use strict';
 
 window.addEventListener('keydown', dropThatBass);
+window.addEventListener('touchstart', dropThatBass);
 let key;
 
 function dropThatBass(e) {
@@ -25,4 +26,3 @@ function removeTransition(e) {
 
 const keys = document.querySelectorAll('.key__container');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-console.log('funciono', keys.forEach);
